@@ -28722,13 +28722,12 @@ page-home .ios home-page #map, page-home .md home-page #map {
 }
 
 page-intro .cat {
-  position: absolute;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Varela Round', sans-serif;
   position: absolute;
   right: 33px;
-  color: #fff;
+  color: #161512;
   margin-top: -96px;
-  font-size: 35px;
+  font-size: 29px;
 }
 
 page-login .content-md {
