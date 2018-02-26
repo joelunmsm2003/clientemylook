@@ -28625,100 +28625,8 @@ page-alerta .ios home-page #map, page-alerta .md home-page #map {
   height: 100%;
 }
 
-page-home #map {
-  width: 100%;
-  height: 50%;
-}
-
-page-home .centerMarker {
-  position: absolute;
-  /*url of the marker*/
-  background: url(../assets/icon/marker.png) no-repeat;
-  /*center the marker*/
-  top: 36%;
-  left: 50%;
-  z-index: 1;
-  /*fix offset when needed*/
-  margin-left: -17px;
-  margin-top: -20px;
-  /*size of the image*/
-  height: 50px;
-  width: 50px;
-  cursor: pointer;
-}
-
-page-home .current-location {
-  position: absolute;
-  right: 3%;
-  width: 30px;
-  bottom: 40% !important;
-}
-
-page-home .current-location button {
-  background-color: #fff;
-  height: 2.9rem;
-  width: 2.9rem;
-}
-
-page-home .current-location button img {
-  width: 20px;
-}
-
-page-home .current-location .button-ios.activated {
-  background-color: transparent;
-}
-
-page-home .address-view {
-  height: 12%;
-}
-
-page-home ion-content {
-  background-color: transparent !important;
-}
-
-page-home .go-back-button, page-home .search-button {
-  background-color: transparent !important;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-
-page-home .go-back-button .activated, page-home .search-button .activated {
-  background-color: transparent !important;
-}
-
-page-home .search-button ion-icon {
-  font-size: 2.7rem !important;
-}
-
-page-home .back-btn, page-home .search-btn {
-  position: absolute;
-}
-
-page-home .back-btn ion-icon, page-home .search-btn ion-icon {
-  color: #000;
-}
-
-page-home .search-btn {
-  left: 85%;
-}
-
-page-home .search-box {
-  position: absolute;
-  top: 2%;
-  z-index: 999;
-}
-
-page-home ion-textarea {
-  font-size: 14px;
-}
-
-page-home .ios home-page .scroll, page-home .md home-page .scroll {
-  height: 100%;
-}
-
-page-home .ios home-page #map, page-home .md home-page #map {
-  width: 100%;
-  height: 100%;
+page-home .list-md {
+  margin: 10px 0 16px;
 }
 
 page-intro .cat {
@@ -28817,6 +28725,11 @@ page-login #custom-overlay img {
   }
 }
 
+page-loginprincipal ion-row {
+  font-family: 'Varela Round', sans-serif;
+  color: #fff;
+}
+
 page-loginprincipal .content-md {
   color: #000;
   background-color: #fff;
@@ -28826,6 +28739,11 @@ page-loginprincipal .content-md {
 
 page-loginprincipal ion-item {
   opacity: 0.8;
+}
+
+page-loginprincipal label {
+  color: #fff;
+  font-family: 'Varela Round';
 }
 
 page-loginprincipal #custom-overlay {
@@ -28895,6 +28813,10 @@ page-loginprincipal #custom-overlay img {
   }
 }
 
+page-loginprincipal .item-block {
+  border-radius: 5px;
+}
+
 page-perfil .profile-menu img {
   border-radius: 50%;
   max-width: 251px;
@@ -28939,9 +28861,14 @@ page-registro .app-icon {
   min-height: 180px;
 }
 
+page-registro label {
+  color: #fff;
+  font-family: 'Varela Round';
+}
+
 page-registroprincipal .content-md {
   color: #000;
-  background-color: #fff;
+  background-color: #541d61;
   background: url(http://estokealo.com:8000/static/registro.jpg) no-repeat center center fixed;
   background-size: cover;
 }
@@ -28951,6 +28878,21 @@ page-registroprincipal .app-icon {
   color: #000;
   text-align: center;
   min-height: 180px;
+}
+
+page-registroprincipal ion-item {
+  padding: 1px;
+  margin: 44px;
+  margin-left: 0;
+}
+
+page-registroprincipal label {
+  color: #fff;
+  font-family: 'Varela Round';
+}
+
+page-registroprincipal .item-block {
+  border-radius: 5px;
 }
 
 page-reserva .content-md {
